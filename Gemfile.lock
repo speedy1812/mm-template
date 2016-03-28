@@ -7,11 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-<<<<<<< HEAD
-    addressable (2.4.0)
-=======
     addressable (2.3.8)
->>>>>>> release
     backports (3.6.8)
     capybara (2.5.0)
       mime-types (>= 1.16)
@@ -30,13 +26,8 @@ GEM
     erubis (2.7.0)
     execjs (2.6.0)
     fast_blank (1.0.0)
-<<<<<<< HEAD
-    fastimage (1.8.1)
-      addressable (~> 2.3, >= 2.3.5)
-=======
     fastimage (1.9.0)
       addressable (~> 2.3.5)
->>>>>>> release
     ffi (1.9.10)
     haml (4.0.7)
       tilt
@@ -49,34 +40,19 @@ GEM
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
-<<<<<<< HEAD
-    middleman (4.1.2)
-=======
-    middleman (4.1.4)
->>>>>>> release
+    middleman (4.1.6)
       coffee-script (~> 2.2)
       compass-import-once (= 1.0.5)
       haml (>= 4.0.5)
       kramdown (~> 1.2)
-<<<<<<< HEAD
-      middleman-cli (= 4.1.2)
-      middleman-core (= 4.1.2)
+      middleman-cli (= 4.1.6)
+      middleman-core (= 4.1.6)
       sass (>= 3.4.0, < 4.0)
-    middleman-cli (4.1.2)
+    middleman-cli (4.1.6)
       thor (>= 0.17.0, < 2.0)
-    middleman-core (4.1.2)
-      activesupport (~> 4.2)
-      addressable (~> 2.4.0)
-=======
-      middleman-cli (= 4.1.4)
-      middleman-core (= 4.1.4)
-      sass (>= 3.4.0, < 4.0)
-    middleman-cli (4.1.4)
-      thor (>= 0.17.0, < 2.0)
-    middleman-core (4.1.4)
+    middleman-core (4.1.6)
       activesupport (~> 4.2)
       addressable (~> 2.3)
->>>>>>> release
       backports (~> 3.6)
       bundler (~> 1.1)
       capybara (~> 2.5.0)
@@ -84,11 +60,7 @@ GEM
       erubis
       execjs (~> 2.0)
       fast_blank
-<<<<<<< HEAD
-      fastimage (~> 1.8)
-=======
       fastimage (~> 1.7)
->>>>>>> release
       hamster (~> 3.0)
       hashie (~> 3.4)
       i18n (~> 0.7.0)
@@ -112,7 +84,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.13.1)
       activesupport (>= 3.1)
-    parallel (1.6.2)
+    parallel (1.8.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -135,13 +107,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  middleman (= 4.1.2)
-=======
-  middleman (>= 4.0.0)
->>>>>>> release
-  tzinfo-data
-  wdm (~> 0.1.0)
+  middleman (~> 4.0)
 
 BUNDLED WITH
    1.11.2
